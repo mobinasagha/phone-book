@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rem solid rgba(145, 199, 120, 0.707);
+  background-color: rgb(255, 252, 233);
+  font-size: 3rem;
+}
+.main {
+  border: 2.5rem solid rgba(145, 199, 120, 0.707);
+  background-color: rgb(255, 252, 233);
+  /* border-radius: 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+input {
+  border: none;
+  border-radius: 0.2rem;
+  height: 2rem;
+  background-color: rgba(145, 199, 120, 0.707);
+  user-select: none;
+  color: white;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+  text-align: center;
+}
+.name-family {
+  /* border-left: 0.5rem solid rgba(145, 199, 120, 0.707); */
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 2rem;
+
+  gap: 11rem;
+}
+.phonenumber-email {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  background-color: rgba(145, 199, 120, 0.707);
+  color: rgba(0, 0, 0, 0.579);
+  font-weight: bold;
+  border-radius: 0.2rem;
+}
+.show-data {
+  border: 2.5rem solid rgba(145, 199, 120, 0.707);
+  background-color: rgb(255, 252, 233);
+  /* border-radius: 2rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
